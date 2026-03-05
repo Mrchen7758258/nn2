@@ -14,10 +14,15 @@
 - 核心依赖
 ```bash
 pip install mujoco>=3.1.0 numpy
+pip install mujoco numpy keyboard
 ```
 
 # 系统兼容
 
 - Windows/Linux/macOS
 - Python 3.8+
+- mujoco >= 2.3.0
+- numpy >= 1.20.0
+- keyboard >= 0.13.5
 
+注意：keyboard 库可能需要管理员权限运行（Windows）或 root 权限（Linux/Mac）
